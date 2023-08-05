@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+img {
+
+    width: 40%;
+    display: block;
+    margin: 0px auto;
+    position: center;
+    border-radius: 30%;
+    float: left;
+}
+
+.box {
+    width: 600px;
+    height: 400px;
+    padding: 70px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 10px 2px rgb(159, 55, 55);
+    background-color: black;
+    animation: 3s infinite;
+}
+
+.name {
+    font-size: 30px;
+    position: center;
+    color: white;
+    align-items: center;
+    font-family: "Press Start 2P";
+}
+
+.icons {
+    font-size: 50px;
+    position: left;
+    color: red;
+}
+
+li {
+    list-style: none;
+    float: left;
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: pink;
+}
